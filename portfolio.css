@@ -57,6 +57,7 @@ body{
  .flex-container1{
   display: flex;
 flex-direction: column;
+margin-left:200px;
       
 }
 .flex-container2{
@@ -64,12 +65,14 @@ flex-direction: column;
   height: 100px;
   align-items: center;
   align-content: space-between;
+  margin-left:200px;
 }
 
 .flex-container3{
 	display: flex;
   height: 100px;
   align-items: center;
+  margin-left:200px;
   }
 
 
@@ -111,7 +114,7 @@ margin-left: 300px;
 	
 }
 #qualité2{
-	margin-left:50px;
+	
 }
 #contact{
 	margin-left:500px;
