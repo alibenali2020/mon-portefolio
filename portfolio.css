@@ -1,64 +1,99 @@
 body{
-	background-color:  #dedc80 ;
+	background-color: white ;
+}
+#table-nom{
+	background-image:url('https://i.gifer.com/GR7w.gif');
 }
 #table1{
 	background:  #aef064 ;
 }
+/*css navbar*/
 #navbar{
-
 	float: right;
+	margin-left:800px;
+    margin-right:auto;
+    width:100%;
 	margin-top: 20px;
 	height: 15px;
+	position: fixed;
+	font-size: 25px;
+
 }
 
 #navbar nav a {
-	text-decoration: none;
+	text-decoration:underline overline;
+
+}
+a:hover {
+  background-color: yellow;
 }
 
-#moi{
+#moi{								/* style de nom*/
 	height: 200px;
 	margin-top: 100px;
 
 }
 #nom{
 	float: left;
-	margin-top: 20px;
+	margin-top: 200px;
+	margin-left: 139px;
+	font-style: italic;
+	font-family: initial;
+	font-size: 20px;
+	color:#E7256E ;
 }
 #photo{
-	float:center;
+	float:left;
 	padding: 100px;
-	margin-left: 600px;
+	margin-left: 450px;
 	
 	
 }
-#about-me1{
-	float: left;
-	margin-top: 20px;
-	background:  #aef064 ;
-	width: 100%;
+.card {														/*stye About me*/
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 45%;
+  height: 150px;
+  background-color:#F1DDD9;
 }
-#about-me2{
-	padding-left: 600px; 
-	width:50%;
-	height: 20px;
-	padding-bottom: 50px;
-	background:  #aef064 ;
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-.diplome{
-	background: #64f0bf;
-	float: left;
-	margin:100px;
-	padding: 100px;
-	margin-left: 600px;
-	width: 50%;
+
+.container {
+  padding: 2px 16px;
+
 }
+.card1 {
+
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 90%;
+  height: 150px;
+  background-color: #CFC8C7;
+}
+
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.container1 {
+  padding:5px 400px;
+  width: 305px;
+
+}
+
+
  .flex-container {
   display: flex;
 
       
 }
 
- .flex-container1{
+ .flex-container3{
   display: flex;
 flex-direction: column;
 margin-left:200px;
@@ -69,7 +104,7 @@ margin-left:200px;
   height: 100px;
   align-items: center;
   align-content: space-between;
-  margin-left:200px;
+  margin-left:300px;
    flex-basis: 300px
 }
 
@@ -84,21 +119,26 @@ margin-left:200px;
 
 #compétence{
 
-	margin:0px;
+	margin:40px;
 	padding: 35px;
-	margin-left:  500px;
+	margin-left:  0px;
+	margin-right: -1px;
+	background-color: #CFC8C7;
 
 }
+
 #compétence1{
 	margin-left: 150px;
 }
 
 #experience{
 
-	
-	margin:0px;
+	margin:40px;
 	padding: 35px;
-	margin-left:500px;
+	margin-left:  0px;
+	margin-right: -1px;
+	background-color: #CFC8C7;
+
 }
 
 #logo{
@@ -107,55 +147,93 @@ margin-left:200px;
 	margin: 50px;
 }
 #phar1{
-
+background-color: #C280F2 ;
 
 }
 #phar2{
-
+background-color: #B596CB ;
 margin-left: 300px;
 }
 #qualité {
+	margin:40px;
+	padding: 35px;
+	margin-left:  0px;
+	margin-right: -1px;
+	background-color: #CFC8C7;
 	
-	margin-left:  500px;
 	
 }
 
-#contact{
-	margin-left:500px;
-}
+
 #langue{
 	
 	margin-left:50px;
+	padding-bottom: 20%;
 }
 #langue-maitriser{
-	margin-left:380px;
+
+	margin:40px;
+	padding: 35px;
+	margin-left:  -48px;
+	margin-right: -1px;
+	background-color: #CFC8C7;
 }
 .arabe{
-	margin-left: -130px;
-	margin-right:90px;
+	
+	margin-left:-220px;
+	margin-right:50px;
 }
 .francais{
-	margin-left: 50px;
+
+	margin-left: -220px;
 	margin-right:50px;
 }
 .anglais{
-	margin-left: 50px;
+	
+	margin-left: -220px;
 	margin-right:50px;
 }
 .regeur{
 	margin-left: -50px;
 	margin-right: 50px;
+	background-color: #7ABEF0 ;
+	width: 110px;
 
 }
 .autonomie{
 	margin-left: 50px;
 	margin-right: 50px;
+	background-color: #7AF08E;
+		width: 110px;
 }
 .capacité{
+	background-color: #7ABEF0 ;
 	margin-left: 50px;
 	margin-right: 50px;
+	width: 110px;
 }
 .travail{
 	margin-left: 50px;
 	margin-right: 50px;
+	background-color: #7AF08E;
+		width: 110px;
+}
+
+.part1{
+	background:  #3fe6f1;
+	
+}
+#contact{
+	margin:40px;
+	padding: 35px;
+	margin-left:  500px;
+	margin-right: -1px;
+	background-color: #CFC8C7; 
+}
+.footer-port{
+	margin-left: 50px;
+	margin: 20px;
+	padding: 20px;
+	padding-left: 20px;
+	padding-right: 50px;
 }
