@@ -2,7 +2,7 @@ body{
 	background-color: white ;
 }
 #table-nom{
-	background-image:url('https://i.gifer.com/GR7w.gif');
+	background-image:url('https://images.pexels.com/photos/270669/pexels-photo-270669.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
 }
 #table1{
 	background:  #aef064 ;
@@ -10,14 +10,24 @@ body{
 /*css navbar*/
 #navbar{
 	float: right;
-	margin-left:800px;
-    margin-right:auto;
-    width:100%;
-	margin-top: 20px;
-	height: 15px;
-	position: fixed;
-	font-size: 25px;
+margin-left: 740px;
+margin-right: auto;
+width: 100%;
+margin-top: 20px;
+height: 15px;
+position: fixed;
+font-size: 19px;
+margin-right: 10px;
 
+}
+#navbar a {
+	margin-left: 10px}
+table{width: 100%}
+
+.photo{
+	margin-left: 215px;
+margin-top: 118px;
+border-radius: 143px;
 }
 
 #navbar nav a {
@@ -42,19 +52,17 @@ a:hover {
 	font-size: 20px;
 	color:#E7256E ;
 }
-#photo{
-	float:left;
-	padding: 100px;
-	margin-left: 450px;
+.titre{
 	
-	
+	margin-top: 70px;
 }
 .card {														/*stye About me*/
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 45%;
-  height: 150px;
-  background-color:#F1DDD9;
+transition: 0.3s;
+width: 45%;
+height: 210px;
+background-color: #F1DDD9;width: 305px;
+height: 100%;
 }
 
 .card:hover {
@@ -63,6 +71,7 @@ a:hover {
 
 .container {
   padding: 2px 16px;
+height: 191px;
 
 }
 .card1 {
@@ -70,7 +79,7 @@ a:hover {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 90%;
-  height: 150px;
+  height: 196px;
   background-color: #CFC8C7;
 }
 
@@ -81,8 +90,9 @@ a:hover {
 
 
 .container1 {
-  padding:5px 400px;
   width: 305px;
+height: 100%;
+margin-left: 30px;
 
 }
 
